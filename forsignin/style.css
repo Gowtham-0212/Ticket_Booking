@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrap{
+    width: 490px;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    height: 330px;
+    background:transparent;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+.wrap h1{
+    text-align: center;   
+}
+.wrap .ip{
+    /* width: 90%; */
+    height: 50px;
+    position: relative;
+    margin: 15px 17px;
+} 
+.ip input{
+   
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px 42px 20px 20px;
+    font-size: 18px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+.ip input::placeholder{
+    color: aliceblue;
+    padding-left: 22px;
+    text-shadow: 1px 1px 2px black;
+}
+.ip i{
+    position: absolute;
+    right: 20px;
+    top: 33%;
+    font-size: large;
+}
+#my {
+    padding:0px 50px 11px 20%
+}
+body button{
+    margin: 8px 40%;
+    padding: 5px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.new{
+    margin-left: 20%;
+}
+body button:hover{
+    color: aqua;
+    background-color: black;
+}
